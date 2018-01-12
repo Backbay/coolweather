@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/toolbar_add"
+        android:icon="@drawable/add"
+        android:title="添加"
+
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/toolbar_search"
+        android:icon="@drawable/search"
+        android:title="查找"
+
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/toolbar_at"
+        android:icon="@drawable/at"
+        android:title="客服"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/toolbar_about"
+        android:icon="@drawable/about"
+        android:title="关于"
+        app:showAsAction="never"/>
+</menu>

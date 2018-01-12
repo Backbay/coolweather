@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single"
+
+
+        >
+        <item
+            android:id="@+id/option1"
+            android:icon="@drawable/home"
+            android:title="我的首页"
+
+
+            />
+
+        <item
+            android:id="@+id/option2"
+            android:icon="@drawable/tips"
+            android:title="我的通知"
+            app:itemBackground="@color/colorAccent"
+            />
+
+
+        <item
+            android:id="@+id/option3"
+            android:icon="@drawable/reply"
+            android:title="我的Blog"
+            app:itemBackground="@color/colorAccent"
+            />
+
+
+        <item
+            android:id="@+id/option4"
+            android:icon="@drawable/follower"
+            android:title="我的作品"
+            />
+
+        <item
+            android:id="@+id/option5"
+            android:icon="@drawable/remind"
+            android:title="关于我们"
+            />
+    </group>
+</menu>
